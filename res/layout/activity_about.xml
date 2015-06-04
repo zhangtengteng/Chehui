@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background_gray" >
+
+    <include layout="@layout/top_title" />
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/logo" />
+
+    <RelativeLayout
+        android:id="@+id/rlUpgrade"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:layout_below="@id/ivIcon"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/set_bg_down"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:text="@string/upgrade"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <ImageView
+            
+            android:layout_alignParentRight="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/arrow_right" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- TabHost必须包含一个 TabWidget和一个FrameLayout -->
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <!-- TabWidget的id属性必须为 @android:id/tabs -->
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+        <!-- FrameLayout的id属性必须为 @android:id/tabcontent -->
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ListView
+                android:scrollbars="none"
+                android:id="@+id/lv_pay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null" >
+            </ListView>
+
+            <ListView
+                android:scrollbars="none"
+                android:id="@+id/lv_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null" >
+            </ListView>
+
+            <ListView
+                android:scrollbars="none"
+                android:id="@+id/lv_consume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null" >
+            </ListView>
+        </FrameLayout>
+    </LinearLayout>
+
+</TabHost>

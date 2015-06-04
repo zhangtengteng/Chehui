@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">车惠订单核验</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_user_hint">请输入用户名</string>
+    <string name="login_pwd_hint">请输入密码</string>
+    <string name="login">登陆</string>
+    <string name="main_order_check">订单核验</string>
+    <string name="main_order_count">订单统计</string>
+    <string name="main_message">消息平台</string>
+    <string name="main_set">设置</string>
+    <string name="tabhost_time">一个月</string>
+    <string name="order_detail">订单详情</string>
+ 
+    
+    
+    
+    <!-- 关于我们 -->
+    <string name="upgrade">新版本检测</string>
+    <!-- 订单详情 -->
+    <string name="order_detail_state">订单状态</string>
+    <string name="order_detail_number">订单编号</string>
+    <string name="order_detail_count">订单数量</string>
+    <string name="order_detail_pay_time">支付时间</string>
+    <string name="order_detail_price">订单价格</string>
+    <string name="order_detail_phone">电话号码</string>
+    <string name="order_detail_pay_way">支付方式</string>
+    <string name="order_detail_introduction">商品简介</string>
+    
+    <!-- 账号管理-->
+    <string name="add_account">添加账号</string>
+    
+    <!-- 意见反馈-->
+    <string name="feddback_hint">用的不爽双两句吧巴拉巴拉</string>
+    <string name="feddback_commit">提交</string>
+    
+    <!-- 消息平台 -->
+    <string name="message_order_state">已支付</string>
+    <string name="message_order_time">刚刚 16:16</string>
+    <string name="message_order_title">【江宁区】优质龙膜贴膜</string>
+    <string name="message_order_sail">套餐特价</string>
+    <string name="message_order_money">金额：19:00元 ●数量：10件</string>
+    <string name="message_order_phone">13813813888</string>
+    
+    <!-- 消息推送 -->
+    <string name="sound_on_of">声音开光</string>
+    <string name="message_on_off">消息开关</string>
+    <string name="message_top_title">消息推送</string>
+    
+    <!-- 订单检验 -->
+    <string name="order_check_phone">请输入手机号码</string>
+    <string name="order_check_pwd">请输入验证码</string>
+    <string name="order_check">验证订单</string>
+    
+    <!-- 设置 -->
+    <string name="set_account">账号管理</string>
+    <string name="set_send_message">消息推送</string>
+    <string name="set_feedback">意见反馈</string>
+    <string name="set_clear">清理缓存</string>
+    <string name="set_about">关于平台</string>
+    <string name="set_loginOut">退出当前账号</string>
+	
+	
+    <!-- 公共 -->
+    <string name="common_request_more">查看更多&#8230;</string>
+    <string name="common_requesting">正在请求&#8230;</string>
+    <string name="common_querying">正在查询&#8230;</string>
+    <string name="common_buffering">正在缓冲&#8230;</string>
+    <string name="common_loading">正在加载&#8230;</string>
+    <string name="common_logining">正在登录&#8230;</string>
+    <string name="common_sending">正在发送&#8230;</string>
+    <string name="common_downloading">正在下载&#8230;</string>
+    <string name="common_uploading">正在上传&#8230;</string>
+    <string name="common_openning">正在开启&#8230;</string>
+    <string name="common_exitting">正在退出&#8230;</string>
+    <string name="common_clearing">正在清理&#8230;</string>
+    <string name="common_saving">正在保存&#8230;</string>
+    <string name="common_verifying">正在验证&#8230;</string>
+    <string name="common_save_success">保存成功</string>
+    <string name="common_confirm">确定</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_btn_start">启动</string>
+    <string name="common_btn_save">保存</string>
+    <string name="common_btn_enter">进入</string>
+    <string name="common_btn_finish">完成</string>
+    <string name="common_btn_set">设置</string>
+    <string name="common_btn_goto_set">去设置</string>
+    <string name="common_btn_detail">详情</string>
+    <string name="common_btn_delete">删除</string>
+    <string name="common_text_title">标题</string>
+    <string name="common_text_title_empty">请输入标题</string>
+    <string name="common_text_content">正文</string>
+    <string name="common_text_content_empty">请输入正文</string>
+    <string name="common_text_publish">发布</string>
+    <string name="common_text_search">搜索</string>
+    <string name="common_text_order">开通</string>
+    <string name="common_text_send">发送</string>
+    <string name="msg_isnull">发送信息为空！</string>
+    <string name="common_network_unavalible">请打开您的网络连接</string>
+    <string name="common_text_tips">提示</string>
+    <string name="dialog_message_exitapp">确认退出？</string>
+    <string name="dialog_choose_Other">其他</string>
+    <string name="dialog_choose_pic_takephoto">拍照</string>
+    <string name="dialog_choose_pic_formlocal">从本地选择</string>
+    <string name="dialog_load_draff">是否继续编辑草稿？</string>
+    <string name="dialog_save_draff">是否保存为草稿？</string>
+    <string name="dialog_login_by_other">您的帐号已在其他地方登录</string>
+
+    <!-- 错误码 -->
+    <string name="error_401_not_auth">帐号或密码错误</string>
+    <string name="error_520_time_out">网络不给力，请稍后重试</string>
+    <string name="common_error_tips">操作失败,错误代号:%s</string>
+
+</resources>

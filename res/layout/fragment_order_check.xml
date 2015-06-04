@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llOrderCheckPhone"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/login_input_down"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/order_check_phone" />
+
+        <com.chehui.diy.EditTextWithDel
+            android:id="@+id/etOrderCheckPhone"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="@string/order_check_phone"
+            android:singleLine="true"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/iv_select"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llOrderCheckPwd"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/llOrderCheckPhone"
+        android:background="@drawable/login_input_down"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/order_check_pwd" />
+
+        <com.chehui.diy.EditTextWithDel
+            android:id="@+id/etOrderCheckPwd"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="@string/order_check_pwd"
+            android:singleLine="true"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_order_check"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/llOrderCheckPwd"
+        android:layout_marginTop="20dp"
+        android:background="@color/login_btn_background"
+        android:text="@string/order_check"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>
